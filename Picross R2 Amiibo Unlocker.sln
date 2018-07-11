@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picross R2 Amiibo Unlocker", "Picross R2 Amiibo Unlocker\Picross R2 Amiibo Unlocker.csproj", "{827AFA57-3E20-4310-B705-394E9026B4A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picross R2 Amiibo Unlocker", "Picross R2 Amiibo Unlocker\Picross R2 Amiibo Unlocker.csproj", "{3377695B-1E5E-4EBC-B6CA-7FAB24EC8F8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{827AFA57-3E20-4310-B705-394E9026B4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{827AFA57-3E20-4310-B705-394E9026B4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{827AFA57-3E20-4310-B705-394E9026B4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{827AFA57-3E20-4310-B705-394E9026B4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3377695B-1E5E-4EBC-B6CA-7FAB24EC8F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3377695B-1E5E-4EBC-B6CA-7FAB24EC8F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3377695B-1E5E-4EBC-B6CA-7FAB24EC8F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3377695B-1E5E-4EBC-B6CA-7FAB24EC8F8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0F3161D-A0FE-4FC4-85D8-3F529FA666D6}
 	EndGlobalSection
 EndGlobal

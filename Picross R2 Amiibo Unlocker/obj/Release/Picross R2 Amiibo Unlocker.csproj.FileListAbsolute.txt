@@ -1,8 +1,0 @@
-c:\users\rohul\documents\visual studio 2015\Projects\Picross R2 Amiibo Unlocker\Picross R2 Amiibo Unlocker\bin\Release\Picross R2 Amiibo Unlocker.exe.config
-c:\users\rohul\documents\visual studio 2015\Projects\Picross R2 Amiibo Unlocker\Picross R2 Amiibo Unlocker\bin\Release\Picross R2 Amiibo Unlocker.exe
-c:\users\rohul\documents\visual studio 2015\Projects\Picross R2 Amiibo Unlocker\Picross R2 Amiibo Unlocker\bin\Release\Picross R2 Amiibo Unlocker.pdb
-c:\users\rohul\documents\visual studio 2015\Projects\Picross R2 Amiibo Unlocker\Picross R2 Amiibo Unlocker\obj\Release\Picross_R2_Amiibo_Unlocker.Form1.resources
-c:\users\rohul\documents\visual studio 2015\Projects\Picross R2 Amiibo Unlocker\Picross R2 Amiibo Unlocker\obj\Release\Picross_R2_Amiibo_Unlocker.Properties.Resources.resources
-c:\users\rohul\documents\visual studio 2015\Projects\Picross R2 Amiibo Unlocker\Picross R2 Amiibo Unlocker\obj\Release\Picross R2 Amiibo Unlocker.csproj.GenerateResource.Cache
-c:\users\rohul\documents\visual studio 2015\Projects\Picross R2 Amiibo Unlocker\Picross R2 Amiibo Unlocker\obj\Release\Picross R2 Amiibo Unlocker.exe
-c:\users\rohul\documents\visual studio 2015\Projects\Picross R2 Amiibo Unlocker\Picross R2 Amiibo Unlocker\obj\Release\Picross R2 Amiibo Unlocker.pdb
