@@ -85,13 +85,13 @@ namespace Picross_R2_Amiibo_Unlocker
             try
             {
                 ushort baseOffset = 0;
-                if (Save1_radioButton.Checked == true) baseOffset = 0x1AAC;
+                if (Save1_radioButton.Checked == true) baseOffset = 0x1A4C;
                 if (Save2_radioButton.Checked == true) baseOffset = 0x55C4;
                 if (Save3_radioButton.Checked == true) baseOffset = 0x913C;
 
                 for (int i = 0; i < 9; i++)
                 {
-                    if (savedata[baseOffset] != 0x09)
+                    if (savedata[baseOffset] >= 0x09)
                     {
                         Amiibo_status_label.Text = "All Amiibo Levels Not Unlocked";
                         break;
@@ -115,13 +115,17 @@ namespace Picross_R2_Amiibo_Unlocker
             try
             {
                 ushort baseOffset = 0;
-                if (Save1_radioButton.Checked == true) baseOffset = 0x1AAC;
+                if (Save1_radioButton.Checked == true) baseOffset = 0x1A4C;
                 if (Save2_radioButton.Checked == true) baseOffset = 0x55C4;
                 if (Save3_radioButton.Checked == true) baseOffset = 0x913C;
 
                 for (int i = 0; i < 9; i++)
                 {
-                    savedata[baseOffset] = 0x09;
+                    if (savedata[baseOffset] < 0x09)
+                    {
+                        savedata[baseOffset] = 0x09;
+                    }
+
                     baseOffset += 0x10;
                 }
                 Read_save(null, null);

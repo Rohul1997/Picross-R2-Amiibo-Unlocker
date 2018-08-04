@@ -53,6 +53,7 @@ namespace Picross_R2_Amiibo_Unlocker
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main_form));
             this.label2 = new System.Windows.Forms.Label();
             this.Amiibo_status_label = new System.Windows.Forms.Label();
             this.Unlock_Amiibo_Levels_button = new System.Windows.Forms.Button();
@@ -176,9 +177,10 @@ namespace Picross_R2_Amiibo_Unlocker
             this.Controls.Add(this.Save_SAVEDATA_button);
             this.Controls.Add(this.Open_SAVEDATA_button);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Main_form";
-            this.Text = "Picross 3D: Round 2 Amiibo Unlocker v2.0";
+            this.Text = "Picross 3D: Round 2 Amiibo Unlocker v2.1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
