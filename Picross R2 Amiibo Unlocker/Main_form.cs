@@ -91,7 +91,7 @@ namespace Picross_R2_Amiibo_Unlocker
 
                 for (int i = 0; i < 9; i++)
                 {
-                    if (savedata[baseOffset] >= 0x09)
+                    if (savedata[baseOffset] < 0x09)
                     {
                         Amiibo_status_label.Text = "All Amiibo Levels Not Unlocked";
                         break;
